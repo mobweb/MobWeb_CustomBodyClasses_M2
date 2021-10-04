@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author    Louis Bataillard <info@mobweb.ch>
+ * @package    MobWeb_CustomBodyClasses
+ * @copyright    Copyright (c) MobWeb GmbH (https://mobweb.ch)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <!--
+    <event name="layout_load_before">
+        <observer name="mobweb_custombodyclasses_adminhtml_layout_load_before" instance="MobWeb\CustomBodyClasses\Observer\Adminhtml\LayoutLoadBefore" shared="false" />
+    </event>
+    -->
+</config>

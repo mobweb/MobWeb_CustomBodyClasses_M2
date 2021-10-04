@@ -1,0 +1,20 @@
+{
+    "name": "mobweb/custombodyclasses",
+    "description": "Dynamically add custom body classes to the front- and backend.",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "MobWeb\\CustomBodyClasses\\": "src"
+        }
+    },
+    "version": "1.0.0"
+}

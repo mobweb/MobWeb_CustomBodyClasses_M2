@@ -20,12 +20,10 @@ class LayoutLoadBefore implements ObserverInterface
     /**
      * @param Config $config
      * @param StoreManagerInterface $storeManager
-     * @param AdminuserHelper $adminUserHelper
      */
     public function __construct(
         Config $config,
-        StoreManagerInterface $storeManager,
-        AdminuserHelper $adminUserHelper
+        StoreManagerInterface $storeManager
     ) {
         $this->config = $config;
         $this->storeManager = $storeManager;
